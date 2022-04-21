@@ -19,10 +19,7 @@ public class DataTypes1_1 {
 			}
 		System.out.println("\nAnswer: \n");
 	for(int i = 0; i<num;i++) {
-		
-		
 		double count = Math.sqrt (arr[i][0]* arr[i][0] + arr[i][1]* arr[i][1]);
-		
 		if (count >result) {
 			result = count;
 			answ = i;
